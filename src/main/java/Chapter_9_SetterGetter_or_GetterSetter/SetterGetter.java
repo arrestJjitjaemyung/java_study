@@ -1,4 +1,4 @@
-package Chapter_9_SetterGetter;
+package Chapter_9_SetterGetter_or_GetterSetter;
 /*
     1. Setter-getter 필요성
     Person class 생성(예:

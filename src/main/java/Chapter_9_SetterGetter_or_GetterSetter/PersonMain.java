@@ -1,4 +1,4 @@
-package Chapter_9_SetterGetter;
+package Chapter_9_SetterGetter_or_GetterSetter;
 
 public class PersonMain {
     public static void main(String[] args) {

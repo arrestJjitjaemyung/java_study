@@ -1,4 +1,4 @@
-package Chapter_9_SetterGetter;
+package Chapter_9_SetterGetter_or_GetterSetter;
 
 public class Person {
     private int age;

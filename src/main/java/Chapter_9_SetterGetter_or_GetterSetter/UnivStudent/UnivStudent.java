@@ -1,4 +1,4 @@
-package Chapter_9_SetterGetter.UnivStudent;
+package Chapter_9_SetterGetter_or_GetterSetter.UnivStudent;
 
 public class UnivStudent {
     private String name;
