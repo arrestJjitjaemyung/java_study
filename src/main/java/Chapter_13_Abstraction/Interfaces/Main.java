@@ -20,12 +20,32 @@ public class Main {
     public static void main(String[] args) {
         Remote_controller rc = new Remote_controller(new Power_button(),
                                                      new Volume_down_button(),
-                                                     new Volume_up_button());
+                                                     new Volume_up_button(),
+                                                     new Channel_down_button(),
+                                                     new Channel_up_button());
+
+//        rc.onPressedPowerButton();
+//        rc.onPressedPowerButton();
+//
+//        rc.onPressedVDButton();
+//        rc.onDownedVDButton();
+//        rc.onPressedVUButton();
+//        rc.onUppedVUButton();
+//
+//        rc.onPressedCDButton();
+//        rc.onPressedCUButton();
+//        rc.onDownedCDButton();
+//        rc.onUppedCUButton();
+
+        ACController acc = new ACController(new Temp_down_button(),
+                                            new Temp_up_button());
 
         rc.onPressedPowerButton();
         rc.onPressedPowerButton();
 
-        rc.onPressedVDButton();
-        rc.onDownedVDButton();
+        acc.onPressedTDButton();
+        acc.onDownedTDButton();
+        acc.onPressedTUButton();
+        acc.onUppedTUButton();
     }
 }
