@@ -2,6 +2,7 @@ package Chapter_19_Collections;
 
 import java.util.AbstractList;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 
 public class StrList {
@@ -27,5 +28,10 @@ public class StrList {
         strList.add("Python");
 
         System.out.println(strList);
+
+        String removeElem = "C#";
+        boolean removed = strList.remove(removeElem);
+        System.out.println(removeElem + " 삭제 여부 : " + removed);
+        System.out.println(strList);    // [java, python, JavaScript, Kotlin]
     }
 }
